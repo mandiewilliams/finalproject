@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mandie.Williams</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css" type="text/css">
+</head>
+<body>
+   <div class="nav-wrapper">
+    <nav>
+      <img src="" width="50px">
+      <ul class="nav nav-pills">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#clips">Clips</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div id="page1">
+    <a id="home"></a>
+      <div id="banner">
+        <h1>Mandie Williams</h1>
+        <h3>writer. community manager. beauty junkie.</h3>
+        lipstick graphic is totally going here and might even be animated.
+       </div> 
+  </div>
+  <div class="row" id="page2">
+    <a id="about"></a>   
+      <div class="col-xs-12 col-s-12 col-md-12" id="feature">
+        <p>
+        <h3>About Me</h3>
+        Forage Godard letterpress, disrupt Austin freegan +1 bespoke. Paleo banh mi umami tofu quinoa distillery. DIY fixie locavore, cray tattooed Marfa irony post-ironic freegan flexitarian tote bag Carles 3 wolf moon. Craft beer Marfa flexitarian messenger bag sriracha vegan Wes Anderson fixie. Semiotics VHS keffiyeh hashtag Odd Future heirloom, polaroid Truffaut sriracha XOXO. 8-bit dreamcatcher meh fashion axe photo booth. Cosby sweater paleo squid, brunch kale chips hoodie photo booth tousled ugh Etsy small batch kitsch viral Truffaut.</p>
+       </div> 
+  </div>
+  <div id="page3">
+    <a id="experience"></a>
+    Experience goes here.
+  </div>
+  <div class="container" id="page4">
+    <a id="skills"></a>
+    <div class="row">
+      <div class="col-xs-12 col-s-12 col-md-4 col-lg-4">
+        Text
+      </div>
+      <div class="col-xs-12 col-s-12 col-md-4 col-lg-4">
+        Text
+      </div>
+      <div class="col-xs-12 col-s-12 col-md-4 col-lg-4">
+        Text
+      </div>
+    </div>
+  </div>
+  <div id="page5">
+    <a id="clips"></a>
+    Clip gallery
+    This is going to be a slideshow.
+   
+  </div>
+  <div id="page6">
+    <a id="contact"></a>
+    <div id="banner">
+      <h1>Contact Me</h1>
+      <button>Email Mandie</button>
+     </div> 
+  </div>
+  <div id="footer">
+    All rights reserved.
+  </div>
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+    $(window).scroll(function(){
+      if($(window).scrollTop() > 1000 && 
+      $(".nav-wrapper").css("position") != "fixed"){
+      $(".nav-wrapper").hide(function(){
+      $(".nav-wrapper").css("position", "fixed")
+      $(".nav-wrapper").slideDown('1000')
+    })
+    } 
+      else if($(window).scrollTop() <= 900 ){
+      $(".nav-wrapper").css("position", "initial")
+    }
+    })
+    })
+  </script>
+  <script>
+
+  </script>
+</body>
+</html>

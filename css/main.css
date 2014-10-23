@@ -1,0 +1,132 @@
+ul.bjqs {
+  position: relative;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  display: none; }
+
+li.bjqs-slide {
+  position: absolute;
+  display: none; }
+
+ul.bjqs-controls {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  z-index: 9999; }
+
+ul.bjqs-controls.v-centered li a {
+  position: absolute; }
+
+ul.bjqs-controls.v-centered li.bjqs-next a {
+  right: 0; }
+
+ul.bjqs-controls.v-centered li.bjqs-prev a {
+  left: 0; }
+
+ol.bjqs-markers {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%; }
+
+ol.bjqs-markers.h-centered {
+  text-align: center; }
+
+ol.bjqs-markers li {
+  display: inline; }
+
+ol.bjqs-markers li a {
+  display: inline-block; }
+
+p.bjqs-caption {
+  display: block;
+  width: 96%;
+  margin: 0;
+  padding: 2%;
+  position: absolute;
+  bottom: 0; }
+
+* {
+  box-sizing: border-box; }
+
+.nav-wrapper {
+  padding: 10px;
+  background-color: #E0E0D1;
+  width: 100%; }
+
+nav {
+  display: inline-block; }
+
+nav ul {
+  display: inline;
+  float: left; }
+
+nav ul li {
+  display: inline; }
+
+nav ul li a {
+  text-decoration: none;
+  margin-right: 10px; }
+
+#page1 {
+  height: 1000px;
+  background-color: #E62E8A; }
+
+#banner {
+  margin: 0 auto;
+  padding-top: 300px;
+  text-align: center; }
+
+#page2 {
+  height: 1200px;
+  background-color: #FF85C2; }
+
+#page3 {
+  height: 1200px;
+  background-color: #FFC7E3; }
+
+#page4 {
+  height: 1200px;
+  background-color: #FFDAEC; }
+
+#page5 {
+  height: 1200px; }
+
+#page6 {
+  background-color: #E62E8A;
+  height: 1000px;
+  margin: 0 auto;
+  padding-top: 300px;
+  text-align: center; }
+
+#footer {
+  position: fixed;
+  width: 1200px;
+  height: 30px;
+  margin: 0 auto;
+  background-color: #FF99CC;
+  min-height: 100%;
+  padding-top: 5px;
+  padding-left: 10px; }
+
+.row {
+  padding-top: 50px; }
+
+#feature p {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 30px; }
+
+button {
+  background-color: #66FFFF;
+  border: 2px solid black;
+  text-transform: uppercase;
+  color: white;
+  line-height: 5px;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center; }
+
+/*# sourceMappingURL=main.css.map */

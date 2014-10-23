@@ -1,0 +1,111 @@
+@import '../bourbon/bourbon';
+@import "colors";
+@import "slider";
+
+@mixin vertical-align {
+	
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+
+	
+}
+
+.nav-wrapper {
+	padding: 10px;
+	background-color: $ltgrey;
+	width: 100%;
+}
+nav {
+	display: inline-block;
+	//width: 1200px;
+}
+
+nav ul {
+	display: inline;
+	float: left;
+}
+
+nav ul li {
+	display: inline;
+}
+
+nav ul li a {
+	text-decoration: none;
+	margin-right: 10px;
+	
+}
+
+#page1 {
+	height: 1000px;
+	background-color: $drkpink;
+}
+#banner {
+	margin: 0 auto;
+	padding-top: 300px;
+	text-align: center;
+}
+
+#page2 {
+	height: 1200px;
+	background-color: $pink;
+}
+
+#page3 {
+	height: 1200px;
+	background-color: $ltpink;
+}
+
+#page4 {
+	height: 1200px;
+	background-color: $xtraltpink;
+}
+
+#page5 {
+	height: 1200px;
+}
+
+#page6 {
+	background-color: $drkpink;
+	height: 1000px;
+	margin: 0 auto;
+	padding-top: 300px;
+	text-align: center;
+}
+
+#footer {
+	position: fixed;
+	width:1200px;
+	height:30px;
+	margin:0 auto;
+	background-color:#FF99CC;
+	min-height:100%;
+	padding-top:5px;
+	padding-left:10px;
+}
+
+.row {
+	padding-top: 50px;
+}
+
+#feature p{
+	margin: 0 auto;
+	max-width: 900px;
+	padding: 30px;
+}
+
+button {
+	background-color: $turq;
+	border: 2px solid black;
+	text-transform: uppercase;
+	color: white;
+	line-height: 5px;
+	//font-family: $defaultfont;
+	height: 30px;
+	border-radius: 5px;
+	text-align: center;
+}
